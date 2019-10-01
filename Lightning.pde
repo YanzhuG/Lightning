@@ -1,3 +1,11 @@
+ int startX = 50;
+ int startY = 120;
+ int endX = 150;
+ int endY = 200;
+ int x=1;
+ void setup(){
+   size(300,300);
+ }
 void draw()
 {
   fill(0,0,0,20);
@@ -27,4 +35,3 @@ void mousePressed()
  endX = 150;
  endY = 200+(int)(Math.random()*20)-10;
 }
-
